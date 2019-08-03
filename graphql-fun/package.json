@@ -1,0 +1,24 @@
+{
+  "name": "graphql-fun",
+  "version": "1.0.0",
+  "description": "test graphql and node stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Philip Isaacs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
